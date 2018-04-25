@@ -1,0 +1,5 @@
+github "Quick/Quick"
+github "Quick/Nimble"
+github "ReactiveX/RxSwift"
+github "Moya/Moya"
+github "Hearst-DD/ObjectMapper"
