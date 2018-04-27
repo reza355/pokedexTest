@@ -14,18 +14,9 @@ class MockHomeNetworkModel {
 	
 	
 		var networkModel = HomeNetworkModel()
-		/// Property used for testing.
 		networkModel.pokemonName = [String]()
 		
 		return networkModel
 	}
 }
-//
-//
-//extension MockHomeNetworkModel {
-//
-//		func fetchPokemonName() -> [String] {
-//			return returnedPokemonName
-//		}
-//}
 
