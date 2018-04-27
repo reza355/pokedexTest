@@ -14,4 +14,7 @@ import ObjectMapper
 
 final class HomeNetworkModel {
 	
+	let provider = MoyaProvider<PokedexMoyaTarget>()
+	
+	var pokemonName: [String] = []
 }

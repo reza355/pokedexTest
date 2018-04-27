@@ -10,4 +10,9 @@ import Foundation
 
 final class HomeViewModel {
 	
+	let networkModel: HomeNetworkModel
+	
+	init(networkModel: HomeNetworkModel) {
+		self.networkModel = networkModel
+	}
 }

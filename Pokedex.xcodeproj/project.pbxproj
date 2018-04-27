@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		601EAA7C2090462A008BA2EC /* PokedexSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601EAA7B2090462A008BA2EC /* PokedexSpec.swift */; };
+		601EAA8C20904C46008BA2EC /* MockHomeNetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601EAA8B20904C46008BA2EC /* MockHomeNetworkModel.swift */; };
+		601EAA90209065EE008BA2EC /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CD6E76208FF02A00412DAC /* Nimble.framework */; };
+		601EAA91209065EE008BA2EC /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CD6E73208FF02A00412DAC /* Quick.framework */; };
+		601EAA93209066FB008BA2EC /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601EAA92209066FB008BA2EC /* RxSwift.framework */; };
 		60CD6E3D208F799200412DAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CD6E3C208F799200412DAC /* AppDelegate.swift */; };
 		60CD6E44208F799300412DAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60CD6E43208F799300412DAC /* Assets.xcassets */; };
-		60CD6E52208F799300412DAC /* PokedexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CD6E51208F799300412DAC /* PokedexTests.swift */; };
 		60CD6E62208F7FF000412DAC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CD6E60208F7FF000412DAC /* HomeViewController.swift */; };
 		60CD6E63208F7FF000412DAC /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60CD6E61208F7FF000412DAC /* HomeViewController.xib */; };
 		60CD6E67208F8A2600412DAC /* PokemonListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CD6E65208F8A2600412DAC /* PokemonListCell.swift */; };
@@ -24,7 +28,6 @@
 		60CD6E83208FF02B00412DAC /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CD6E78208FF02A00412DAC /* Alamofire.framework */; };
 		60CD6E84208FF02B00412DAC /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CD6E79208FF02A00412DAC /* ReactiveSwift.framework */; };
 		60CD6E85208FF02B00412DAC /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CD6E7A208FF02A00412DAC /* RxMoya.framework */; };
-		60CD6E86208FF02B00412DAC /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CD6E7B208FF02B00412DAC /* RxSwift.framework */; };
 		60CD6E87208FF02B00412DAC /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CD6E7C208FF02B00412DAC /* Result.framework */; };
 		60CD6E89208FF0AF00412DAC /* PokedexMoyaTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CD6E88208FF0AF00412DAC /* PokedexMoyaTarget.swift */; };
 		60CD6E8B208FF4EF00412DAC /* PokemonName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CD6E8A208FF4EF00412DAC /* PokemonName.swift */; };
@@ -43,12 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		601EAA7B2090462A008BA2EC /* PokedexSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexSpec.swift; sourceTree = "<group>"; };
+		601EAA8B20904C46008BA2EC /* MockHomeNetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHomeNetworkModel.swift; sourceTree = "<group>"; };
+		601EAA8D20905D0B008BA2EC /* PokedexTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PokedexTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		601EAA92209066FB008BA2EC /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = SOURCE_ROOT; };
 		60CD6E39208F799200412DAC /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60CD6E3C208F799200412DAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60CD6E43208F799300412DAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60CD6E48208F799300412DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60CD6E4D208F799300412DAC /* PokedexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokedexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		60CD6E51208F799300412DAC /* PokedexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexTests.swift; sourceTree = "<group>"; };
 		60CD6E53208F799300412DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60CD6E60208F7FF000412DAC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		60CD6E61208F7FF000412DAC /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
@@ -64,7 +70,6 @@
 		60CD6E78208FF02A00412DAC /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = SOURCE_ROOT; };
 		60CD6E79208FF02A00412DAC /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = SOURCE_ROOT; };
 		60CD6E7A208FF02A00412DAC /* RxMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxMoya.framework; path = Carthage/Build/iOS/RxMoya.framework; sourceTree = SOURCE_ROOT; };
-		60CD6E7B208FF02B00412DAC /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = SOURCE_ROOT; };
 		60CD6E7C208FF02B00412DAC /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = SOURCE_ROOT; };
 		60CD6E88208FF0AF00412DAC /* PokedexMoyaTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexMoyaTarget.swift; sourceTree = "<group>"; };
 		60CD6E8A208FF4EF00412DAC /* PokemonName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonName.swift; sourceTree = "<group>"; };
@@ -77,7 +82,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60CD6E86208FF02B00412DAC /* RxSwift.framework in Frameworks */,
 				60CD6E87208FF02B00412DAC /* Result.framework in Frameworks */,
 				60CD6E81208FF02B00412DAC /* Nimble.framework in Frameworks */,
 				60CD6E80208FF02B00412DAC /* RxCocoa.framework in Frameworks */,
@@ -96,6 +100,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				601EAA91209065EE008BA2EC /* Quick.framework in Frameworks */,
+				601EAA90209065EE008BA2EC /* Nimble.framework in Frameworks */,
+				601EAA93209066FB008BA2EC /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,9 +113,9 @@
 			isa = PBXGroup;
 			children = (
 				60CD6E3B208F799200412DAC /* Pokedex */,
-				60CD6E71208FEFE800412DAC /* Carthage Framework */,
 				60CD6E50208F799300412DAC /* PokedexTests */,
 				60CD6E3A208F799200412DAC /* Products */,
+				60CD6E71208FEFE800412DAC /* Carthage Framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,8 +140,10 @@
 		60CD6E50208F799300412DAC /* PokedexTests */ = {
 			isa = PBXGroup;
 			children = (
-				60CD6E51208F799300412DAC /* PokedexTests.swift */,
+				601EAA8D20905D0B008BA2EC /* PokedexTests-Bridging-Header.h */,
 				60CD6E53208F799300412DAC /* Info.plist */,
+				601EAA7B2090462A008BA2EC /* PokedexSpec.swift */,
+				601EAA8B20904C46008BA2EC /* MockHomeNetworkModel.swift */,
 			);
 			path = PokedexTests;
 			sourceTree = "<group>";
@@ -231,6 +240,7 @@
 		60CD6E71208FEFE800412DAC /* Carthage Framework */ = {
 			isa = PBXGroup;
 			children = (
+				601EAA92209066FB008BA2EC /* RxSwift.framework */,
 				60CD6E8C2090138D00412DAC /* ObjectMapper.framework */,
 				60CD6E78208FF02A00412DAC /* Alamofire.framework */,
 				60CD6E72208FF02A00412DAC /* Moya.framework */,
@@ -242,7 +252,6 @@
 				60CD6E77208FF02A00412DAC /* RxBlocking.framework */,
 				60CD6E75208FF02A00412DAC /* RxCocoa.framework */,
 				60CD6E7A208FF02A00412DAC /* RxMoya.framework */,
-				60CD6E7B208FF02B00412DAC /* RxSwift.framework */,
 			);
 			path = "Carthage Framework";
 			sourceTree = "<group>";
@@ -257,6 +266,7 @@
 				60CD6E35208F799200412DAC /* Sources */,
 				60CD6E36208F799200412DAC /* Frameworks */,
 				60CD6E37208F799200412DAC /* Resources */,
+				601EAA94209067A5008BA2EC /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -300,6 +310,7 @@
 					};
 					60CD6E4C208F799300412DAC = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 						TestTargetID = 60CD6E38208F799200412DAC;
 					};
 				};
@@ -343,6 +354,34 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		601EAA94209067A5008BA2EC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ObjectMapper.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Moya.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveMoya.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxMoya.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		60CD6E35208F799200412DAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -362,7 +401,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60CD6E52208F799300412DAC /* PokedexTests.swift in Sources */,
+				601EAA7C2090462A008BA2EC /* PokedexSpec.swift in Sources */,
+				601EAA8C20904C46008BA2EC /* MockHomeNetworkModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,8 +580,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A23Z6P86L6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = PokedexTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -550,6 +595,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.icehousecorp.PokedexTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PokedexTests/PokedexTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pokedex.app/Pokedex";
@@ -561,8 +608,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A23Z6P86L6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = PokedexTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -571,6 +623,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.icehousecorp.PokedexTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PokedexTests/PokedexTests-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pokedex.app/Pokedex";
